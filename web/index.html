@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nuv Studio</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div id="app">
+    <header id="titlebar"><div class="brand"><span class="logo-dot"></span>Nuv Studio</div><button id="cmd"></button></header>
+    <nav id="rail"></nav>
+    <aside id="side"></aside>
+    <main id="main"></main>
+    <footer id="status"></footer>
+  </div>
+  <div id="modal" hidden></div>
+  <script>window.MONACO_PATH = '/vendor/monaco/vs';</script>
+  <script src="/vendor/socketio/socket.io.min.js"></script>
+  <script src="/vendor/monaco/vs/loader.js"></script>
+  <script src="/web-native.js"></script>
+  <script src="/renderer.js"></script>
+</body>
+</html>
